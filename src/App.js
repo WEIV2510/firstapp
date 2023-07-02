@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import MyFooter from './Footer';
-import MyHeader from './Header';
+import MyFooter from './MyFooter';
+import MyHeader from './MyHeader';
 
 function App() {
   setInterval(UpdateTime, 1000);
@@ -16,14 +16,14 @@ function App() {
 
   return (
   <div>
-    <Header />
+    <MyHeader />
       <div className='My-content'>
         <div>ขณะนี้เวลา</div>
         <div>{time}</div>
         <h2>{num}</h2>
         <button onClick={()=>setNum(num+1)}>เพิ่ม</button><button onClick={()=>setNum(num-1)}>ลด</button>
       </div>
-    <Footer />
+    <MyFooter />
   </div>
   );
 }
