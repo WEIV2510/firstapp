@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #f7411d;
+  background-color: #3182a5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,17 +36,17 @@
     transform: rotate(360deg);
   }
 }
-.MyHeader{
-  background-color:#61dafb;
+
+.My-header {
+  background-color: lightsteelblue;
+  font-family: Kanit, Sarabun, Thonburi, Tahoma, sans-serif;
   text-align: center;
 }
-.MyFooter{
-  background-color:#1b6b81;
-  color: #f7411d;
+
+.My-content {
+  font-family: Sarabun, Thonburi, Tahoma, sans-serif;
   text-align: center;
-}
-.MyContent{
-  text-align: center;
+  background-color: white;
   font-size: larger;
   padding: 2em;
   margin-bottom: 1em;
